@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src=http://code.jquery.com/jquery-latest.min.js></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.3/jquery.backstretch.min.js"></script>
+    <title>Sweet and Spice About</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="header">
+            <div class="nav">
+                <a href="contact.html">CONTACT</a>
+                <a href="menu.html">MENU</a>
+                <a href="about.html" class="current">ABOUT</a>
+                <a href="index.html">HOME</a>            
+                </div>
+
+        </div>
+
+        <div class="background">
+
+            <div class="about introduction">
+                <h1>ABOUT</h1>
+                <div class="left">
+                  
+                  <h3>OUR RESTAURANT</h3>
+                  <p>Formerly Golden Tandoori, Sweet 'n' Spice is located on Upper Dorset Street in the centre of Dublin. This Indian takeaway serves a wide range of classic dishes such as Korma, Masala, Jalfrezi and Madras.<br>You will find us at 64 Dorset Street Upper, Dublin 1</p>
+                </div>
+
+                <div class="about_chef">
+                    <img class="about_pics" src="./img/chef.jpg">
+                </div>
+
+            </div>
+
+            <div class="about info">
+
+                <div class="about_dish">
+                    <img  src="./img/dish1.jpg">
+                </div>
+
+                <div class="right">
+                 
+                 <h3>ABOUT US</h3>
+                 <p>Three brothers who shared the passion for food and tradition.<br>
+                    We opened our restaurant in 2013 with the idea of sharing<br> the taste and flavor of famous and delicious Indian cuisine with you in Dublin.</p>
+                </div>
+
+            </div>
+
+           
+            <video id="video" autoplay loop>
+                <source src="./img/slicing3.mp4" type="video/mp4">
+            </video>
+        
+        
+        </div>
+        <div class="footer">
+            <div class="list1 container">
+                <ul class="hours">
+                    <li><h3>OPENING HOURS</h3></li>
+                    <li>MONDAY-FRIDAY...10:00am – 4:00am</li>
+                    <li>SATURDAY...............11:00am – 4:00am</li>
+                    <li>SUNDAY....................11:00am – 3:00am</li>
+                    <li></li>
+                </ul>           
+                </div>
+            <div class="list2 container">
+                <ul class="CONTACT US">
+                    <ul class="hours">
+                        <li><h3>CONTACT</h3></li>
+                        <li>pqubacki@gmail.com</li>
+                        <li>0860886727</li>
+                        <li></li>
+                        <li></li>
+                    </ul>            
+            </div>
+             <div class="list3 container">
+                <ul class="hours">
+                    <li><h3>LOCATION</h3></li>
+                    <li>City centre</li>
+                    <li>64 Upper Dorset Street</li>
+                    <li>Eircode: D01 E7V7</li>
+                    <li>Ireland</li>
+                </ul>           
+            </div>
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/jquery.backstretch.min.js"></script>
+    <script>   
+        $.backstretch("./img/background1.jpg");
+
+        var vid = document.getElementById("video");
+        vid.playbackRate = 0.5;
+   </script>
+</body>
+</html>
